@@ -1,0 +1,53 @@
+.text-editor-header{
+    background-color: rgb(188, 208, 224);
+}
+.content{
+    height: 400px;
+    outline: none;
+    overflow: auto;
+}
+.card{
+box-shadow: 0px 0px 17px -1px #000000;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+}
+
+.container {
+    max-width: 650px;
+}
+.content:focus {
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.3);
+    border-color: #007bff;
+}
+.content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.content::-webkit-scrollbar-track {
+    background-color: #e9ecef;
+}
+.text-editor-header .btn {
+    transition: all 0.3s ease;
+}
